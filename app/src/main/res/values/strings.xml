@@ -1,0 +1,187 @@
+<resources>
+    <string name="app_name">EventKampus</string>
+
+    <!-- === NAVIGATION === -->
+    <string name="nav_home">Beranda</string>
+    <string name="nav_explore">Eksplorasi</string>
+    <string name="nav_tickets">Tiket Saya</string>
+    <string name="nav_profile">Profil</string>
+
+    <!-- === HOME FRAGMENT === -->
+    <string name="home_greeting_default">Halo, Mahasiswa 👋</string>
+    <string name="home_subgreeting_default">Temukan kegiatan kampus terbaik untukmu</string>
+    <string name="home_hero_title">Tingkatkan SKP &amp; Pengalamanmu!</string>
+    <string name="home_hero_subtitle">Daftar seminar, workshop, dan lomba bersertifikat resmi langsung dari aplikasi.</string>
+    <string name="home_hero_btn_explore">Jelajahi Sekarang</string>
+    <string name="home_section_categories">Kategori Kegiatan</string>
+    <string name="home_section_latest">Daftar Kegiatan Terbaru</string>
+    <string name="home_btn_add">Tambah</string>
+    <string name="home_empty_title">Belum Ada Kegiatan</string>
+    <string name="home_empty_subtitle">Belum ada kegiatan untuk kategori ini.\nTambahkan kegiatan baru atau pilih kategori lain.</string>
+    <string name="home_btn_add_first">Tambah Kegiatan Pertama</string>
+    <string name="home_loading">Memuat daftar kegiatan…</string>
+
+    <!-- === EXPLORE FRAGMENT === -->
+    <string name="explore_title">Eksplorasi Kegiatan</string>
+    <string name="explore_subtitle">Cari berdasarkan judul, pemateri, ormawa, atau lokasi</string>
+    <string name="explore_search_hint">Cari seminar, workshop, pemateri…</string>
+    <string name="explore_filter_all">Semua</string>
+    <string name="explore_filter_seminar">Seminar</string>
+    <string name="explore_filter_workshop">Workshop</string>
+    <string name="explore_filter_lomba">Lomba</string>
+    <string name="explore_filter_kepanitiaan">Kepanitiaan</string>
+    <string name="explore_filter_free">Hanya Gratis</string>
+    <string name="explore_filter_online">Online (Zoom)</string>
+    <string name="explore_filter_offline">Tatap Muka</string>
+    <string name="explore_sort_label">Urutkan:</string>
+    <string name="explore_sort_newest">Terbaru</string>
+    <string name="explore_sort_price_low">Harga: Termurah</string>
+    <string name="explore_sort_price_high">Harga: Tertinggi</string>
+    <string name="explore_sort_quota">Sisa Kuota</string>
+    <string name="explore_sort_name">Nama: A ‒ Z</string>
+    <string name="explore_filter_active">Filter Aktif</string>
+    <string name="explore_fab_add">Tambah Acara</string>
+    <string name="explore_empty_title">Kegiatan Tidak Ditemukan</string>
+    <string name="explore_empty_subtitle">Tidak ada kegiatan yang sesuai dengan kata kunci pencarian atau filter yang Anda pilih.</string>
+    <string name="explore_btn_reset_filter">Reset Filter &amp; Pencarian</string>
+    <string name="explore_loading">Memuat kegiatan…</string>
+
+    <!-- === DETAIL EVENT === -->
+    <string name="detail_organizer_prefix">Diselenggarakan oleh:</string>
+    <string name="detail_speaker_prefix">Pemateri: %s</string>
+    <string name="detail_quota_format">Sisa %1$d dari %2$d Kuota</string>
+    <string name="detail_price_free">Gratis</string>
+    <string name="detail_btn_maps">Peta Lokasi</string>
+    <string name="detail_btn_reminder">Ingatkan Saya</string>
+    <string name="detail_btn_edit">Edit</string>
+    <string name="detail_btn_delete">Hapus</string>
+    <string name="detail_btn_register">Daftar Sekarang</string>
+    <string name="detail_btn_view_ticket">Lihat Tiket Saya</string>
+    <string name="detail_btn_quota_full">Kuota Penuh</string>
+    <string name="detail_section_description">Deskripsi Kegiatan</string>
+    <string name="detail_section_benefits">Fasilitas &amp; Benefit</string>
+    <string name="detail_section_terms">Syarat &amp; Ketentuan</string>
+    <string name="detail_maps_online_msg">Kegiatan ini diselenggarakan secara daring (Online via Zoom). Tautan akses tersedia di E-Tiket Anda.</string>
+    <string name="detail_reminder_success">Pengingat berhasil diaktifkan! Notifikasi jadwal telah dikirim ke status bar. ⏰</string>
+    <string name="detail_delete_title">Hapus Kegiatan?</string>
+    <string name="detail_delete_msg">Apakah Anda yakin ingin menghapus kegiatan \'%s\'?\n\nData akan dihapus permanen dari penyimpanan SQLite lokal.</string>
+    <string name="detail_delete_success">Kegiatan berhasil dihapus dari database.</string>
+    <string name="detail_delete_fail">Gagal menghapus kegiatan.</string>
+    <string name="detail_not_found">Data kegiatan tidak ditemukan</string>
+
+    <!-- === REGISTER EVENT === -->
+    <string name="register_event_title">Formulir Pendaftaran</string>
+    <string name="register_fee_prefix">Biaya Pendaftaran: %s</string>
+    <string name="register_et_name_hint">Nama Lengkap *</string>
+    <string name="register_et_nim_hint">NIM *</string>
+    <string name="register_et_prodi_hint">Program Studi *</string>
+    <string name="register_et_phone_hint">Nomor WhatsApp *</string>
+    <string name="register_agree_label">Saya menyetujui tata tertib dan syarat keikutsertaan kegiatan ini.</string>
+    <string name="register_btn_submit">Daftar &amp; Terbitkan Tiket</string>
+    <string name="register_success_title">Pendaftaran Berhasil! 🎉</string>
+    <string name="register_success_btn">Buka Tiket Saya</string>
+    <string name="register_error_name">Nama lengkap wajib diisi</string>
+    <string name="register_error_nim">NIM wajib diisi</string>
+    <string name="register_error_prodi">Program studi wajib diisi</string>
+    <string name="register_error_phone">Nomor WhatsApp wajib diisi</string>
+    <string name="register_error_agree">Harap menyetujui pernyataan tata tertib kegiatan</string>
+
+    <!-- === ADD / EDIT EVENT === -->
+    <string name="add_event_toolbar_title">Tambah Kegiatan Baru</string>
+    <string name="edit_event_toolbar_title">Edit Kegiatan</string>
+    <string name="form_header_title">Formulir Manajemen Kegiatan</string>
+    <string name="form_header_subtitle">Data kegiatan akan tersimpan langsung ke dalam database SQLite lokal perangkat.</string>
+    <string name="form_hint_title">Judul Kegiatan *</string>
+    <string name="form_hint_category">Kategori Kegiatan *</string>
+    <string name="form_hint_organizer">Penyelenggara / Ormawa *</string>
+    <string name="form_hint_speaker">Pembicara / Pemateri *</string>
+    <string name="form_hint_datetime">Hari, Tanggal &amp; Waktu *</string>
+    <string name="form_hint_datetime_helper">Contoh: Senin, 25 Nov 2026 • 09:00 - 12:00 WIB</string>
+    <string name="form_hint_location">Lokasi / Ruangan *</string>
+    <string name="form_label_format">Format Pelaksanaan *</string>
+    <string name="form_format_offline">Tatap Muka (Offline)</string>
+    <string name="form_format_online">Daring / Online (Zoom)</string>
+    <string name="form_hint_quota">Kuota Peserta *</string>
+    <string name="form_hint_price">HTM (Rp) *</string>
+    <string name="form_hint_price_helper">Isi 0 untuk Gratis</string>
+    <string name="form_hint_description">Deskripsi Kegiatan *</string>
+    <string name="form_hint_benefits">Fasilitas &amp; Benefit Peserta</string>
+    <string name="form_hint_benefits_helper">Pisahkan baris atau koma (contoh: E-Sertifikat SKP, Snack Box, Materi PDF)</string>
+    <string name="form_hint_terms">Syarat &amp; Ketentuan Peserta</string>
+    <string name="form_hint_terms_helper">Pisahkan baris atau koma (contoh: Mahasiswa aktif UNIMAL, Wajib hadir tepat waktu)</string>
+    <string name="form_btn_save">Simpan Kegiatan</string>
+    <string name="form_btn_update">Perbarui Kegiatan</string>
+
+    <!-- === TICKET DETAIL === -->
+    <string name="ticket_title">E-Tiket Resmi</string>
+    <string name="ticket_qr_desc">Pindai kode QR ini saat check-in di lokasi kegiatan</string>
+    <string name="ticket_btn_share">Bagikan Tiket</string>
+    <string name="ticket_btn_home">Kembali ke Beranda</string>
+
+    <!-- === PROFILE === -->
+    <string name="profile_nim_format">NIM: %1$s • %2$s</string>
+    <string name="profile_university">Universitas Malikussaleh (UNIMAL)</string>
+    <string name="profile_stat_events">Event Diikuti</string>
+    <string name="profile_stat_skp">Poin SKP</string>
+    <string name="profile_stat_cert">E-Sertifikat</string>
+    <string name="profile_menu_certificates">Koleksi E-Sertifikat Saya</string>
+    <string name="profile_menu_academic">Pusat Validasi SKP &amp; Ormawa</string>
+    <string name="profile_menu_about">Tentang Aplikasi EventCampus</string>
+    <string name="profile_menu_web">Portal Website UNIMAL</string>
+    <string name="profile_menu_web_url">unimal.ac.id</string>
+    <string name="profile_menu_web_badge">WebView</string>
+    <string name="profile_btn_logout">Keluar dari Akun (Logout)</string>
+    <string name="profile_btn_reset">Reset Riwayat Pendaftaran Event</string>
+    <string name="profile_logout_title">Konfirmasi Keluar</string>
+    <string name="profile_logout_msg">Apakah Anda yakin ingin keluar dari akun EventCampus Anda?</string>
+    <string name="profile_logout_yes">Ya, Keluar</string>
+    <string name="profile_reset_title">Reset Data Tiket?</string>
+    <string name="profile_reset_msg">Apakah Anda yakin ingin mereset seluruh tiket pendaftaran yang tersimpan di perangkat ini?</string>
+    <string name="profile_reset_yes">Ya, Reset</string>
+    <string name="profile_about_title">Tentang EventCampus</string>
+    <string name="profile_about_msg">EventCampus v1.0\nAplikasi Informasi dan Pendaftaran Kegiatan Kampus Berbasis Android.\n\nDibuat untuk Pemrograman Mobile - Universitas Malikussaleh (UNIMAL).</string>
+
+    <!-- === AUTH === -->
+    <string name="login_title">Masuk ke EventKampus</string>
+    <string name="login_subtitle">Gunakan akun UNIMAL Anda untuk masuk</string>
+    <string name="login_btn">Masuk</string>
+    <string name="login_no_account">Belum punya akun? </string>
+    <string name="login_register_link">Daftar di sini</string>
+    <string name="register_title">Buat Akun EventKampus</string>
+    <string name="register_btn_create">Buat Akun</string>
+
+    <!-- === NOTIFICATIONS === -->
+    <string name="notif_permission_title">Izinkan Notifikasi</string>
+    <string name="notif_permission_msg">EventKampus membutuhkan izin notifikasi untuk mengirimkan konfirmasi pendaftaran dan pengingat jadwal kegiatan kampus.</string>
+    <string name="notif_permission_allow">Izinkan</string>
+    <string name="notif_permission_later">Nanti</string>
+    <string name="notif_permission_denied">Izin notifikasi ditolak. Aktifkan manual di Pengaturan → Aplikasi → EventKampus.</string>
+    <string name="notif_permission_granted">Izin notifikasi diberikan. Anda akan menerima pengingat kegiatan kampus.</string>
+    <string name="notif_registration_title">Pendaftaran Berhasil! 🎟️</string>
+    <string name="notif_registration_text">E-Tiket untuk \'%s\' telah terbit.</string>
+    <string name="notif_reminder_text" formatted="false">Jangan lewatkan kegiatan \'%s\' pada %s di %s.</string>
+
+    <!-- === WEBVIEW === -->
+    <string name="web_portal_title">Portal UNIMAL</string>
+    <string name="web_error_title">Gagal Memuat Halaman Web</string>
+    <string name="web_error_subtitle">Pastikan perangkat Anda terhubung ke internet untuk mengakses portal web kampus.</string>
+    <string name="web_btn_reload">Muat Ulang</string>
+
+    <!-- === COMMON === -->
+    <string name="btn_cancel">Batal</string>
+    <string name="btn_close">Tutup</string>
+    <string name="btn_yes_delete">Ya, Hapus</string>
+    <string name="label_online_prefix">Online (%s)</string>
+    <string name="item_quota_remaining">Sisa %d Kursi</string>
+    <string name="item_speaker_prefix">Pemateri: %s</string>
+    <string name="content_desc_event_banner">Banner kegiatan %s</string>
+    <string name="content_desc_category_icon">Ikon kategori</string>
+    <string name="content_desc_location_icon">Ikon lokasi</string>
+    <string name="content_desc_calendar_icon">Ikon kalender</string>
+    <string name="content_desc_search_icon">Ikon pencarian</string>
+    <string name="content_desc_clear_search">Hapus teks pencarian</string>
+    <string name="content_desc_notification_icon">Notifikasi</string>
+    <string name="content_desc_avatar">Foto profil</string>
+    <string name="content_desc_qr_code">Kode QR tiket</string>
+    <string name="content_desc_web_error_icon">Ikon error web</string>
+</resources>

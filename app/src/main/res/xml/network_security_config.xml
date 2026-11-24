@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- Izinkan HTTP (cleartext) khusus untuk domain portal kampus UNIMAL -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">portal.unimal.ac.id</domain>
+        <domain includeSubdomains="true">unimal.ac.id</domain>
+    </domain-config>
+</network-security-config>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingStart="20dp"
+    android:paddingTop="11dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="11dp">
+
+    <!-- Nomor urut -->
+    <TextView
+        android:id="@+id/tvRowNumber"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/bg_banner_gradient"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:text="1" />
+
+    <!-- Konten -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvRowPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_primary"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end"
+            tools:text="M. Nasyiruddin" />
+
+        <TextView
+            android:id="@+id/tvRowSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/text_secondary"
+            android:textSize="11sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            tools:text="240170050 • Teknik Informatika" />
+
+    </LinearLayout>
+
+    <!-- Badge -->
+    <TextView
+        android:id="@+id/tvRowBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/bg_badge_rounded"
+        android:paddingStart="9dp"
+        android:paddingTop="3dp"
+        android:paddingEnd="9dp"
+        android:paddingBottom="3dp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        tools:text="Aktif" />
+
+</LinearLayout>

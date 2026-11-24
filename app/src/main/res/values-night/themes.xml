@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.EventKampus" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Brand Colors (dark) -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/background_light</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/background_light</item>
+
+        <!-- Surfaces & Backgrounds (dark) -->
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorSurface">@color/surface_card</item>
+    </style>
+
+    <style name="Theme.EventKampus" parent="Base.Theme.EventKampus" />
+</resources>

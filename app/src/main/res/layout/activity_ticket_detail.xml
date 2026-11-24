@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_light"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbarTicket"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/surface_card"
+        app:elevation="0dp"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        app:navigationIconTint="@color/text_primary"
+        app:title="Slip Pendaftaran"
+        app:titleTextColor="@color/text_primary" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/stroke_border" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- Kartu Slip Utama -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="6dp"
+                app:strokeWidth="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Header gradien -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_banner_gradient"
+                        android:orientation="vertical"
+                        android:padding="22dp">
+
+                        <TextView
+                            android:id="@+id/tvTicketDetailCode"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#CCffffff"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            android:letterSpacing="0.08"
+                            tools:text="SLIP #TCK-29401" />
+
+                        <TextView
+                            android:id="@+id/tvTicketDetailTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:textColor="@color/white"
+                            android:textSize="19sp"
+                            android:textStyle="bold"
+                            android:maxLines="2"
+                            android:ellipsize="end"
+                            tools:text="Seminar Nasional AI &amp; Perkembangan Masa Depan" />
+
+                        <TextView
+                            android:id="@+id/tvTicketDetailCategory"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/bg_badge_rounded"
+                            android:backgroundTint="#33FFFFFF"
+                            android:paddingStart="12dp"
+                            android:paddingTop="4dp"
+                            android:paddingEnd="12dp"
+                            android:paddingBottom="4dp"
+                            android:textColor="@color/white"
+                            android:textSize="11sp"
+                            android:textStyle="bold"
+                            tools:text="Seminar" />
+
+                    </LinearLayout>
+
+                    <!-- Section: Nomor Registrasi -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/surface_card"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingStart="20dp"
+                        android:paddingTop="20dp"
+                        android:paddingEnd="20dp"
+                        android:paddingBottom="16dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SLIP PENDAFTARAN PESERTA"
+                            android:textColor="@color/primary"
+                            android:textSize="11sp"
+                            android:textStyle="bold"
+                            android:letterSpacing="0.12" />
+
+                        <View
+                            android:layout_width="40dp"
+                            android:layout_height="2dp"
+                            android:layout_marginTop="8dp"
+                            android:background="@color/primary" />
+
+                        <!-- Kotak nomor registrasi -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="14dp"
+                            android:background="@drawable/bg_badge_rounded"
+                            android:backgroundTint="@color/primary_container"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:padding="14dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nomor Registrasi"
+                                android:textColor="@color/text_secondary"
+                                android:textSize="10sp"
+                                android:textAllCaps="true"
+                                android:letterSpacing="0.1" />
+
+                            <TextView
+                                android:id="@+id/tvQrToken"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:fontFamily="monospace"
+                                android:textColor="@color/primary"
+                                android:textSize="12sp"
+                                android:textStyle="bold"
+                                tools:text="EVENTCAMPUS|EVT-001|TCK-29401|220180001" />
+
+                        </LinearLayout>
+
+                        <!-- Instruksi -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/bg_badge_rounded"
+                            android:backgroundTint="#FFF8E1"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:padding="12dp">
+
+                            <ImageView
+                                android:layout_width="16dp"
+                                android:layout_height="16dp"
+                                android:src="@drawable/ic_info"
+                                app:tint="#F59E0B" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="8dp"
+                                android:text="Tunjukkan slip ini kepada panitia di meja registrasi saat tiba di lokasi"
+                                android:textColor="#92400E"
+                                android:textSize="11sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <!-- Separator dekoratif -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:background="@color/background_light"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingStart="12dp"
+                        android:paddingEnd="12dp">
+
+                        <View
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/bg_banner_gradient"
+                            android:backgroundTint="@color/surface_card" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1.5dp"
+                            android:layout_weight="1"
+                            android:background="@color/stroke_border" />
+
+                        <View
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/bg_banner_gradient"
+                            android:backgroundTint="@color/surface_card" />
+
+                    </LinearLayout>
+
+                    <!-- Section: Detail Peserta & Kegiatan -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/surface_card"
+                        android:orientation="vertical"
+                        android:paddingStart="20dp"
+                        android:paddingTop="16dp"
+                        android:paddingEnd="20dp"
+                        android:paddingBottom="20dp">
+
+                        <!-- Nama & NIM berdampingan -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Nama Peserta"
+                                    android:textColor="@color/text_tertiary"
+                                    android:textSize="10sp"
+                                    android:textAllCaps="true"
+                                    android:letterSpacing="0.08" />
+
+                                <TextView
+                                    android:id="@+id/tvTicketDetailName"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dp"
+                                    android:textColor="@color/text_primary"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold"
+                                    tools:text="M. Nasyir" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="NIM / Program Studi"
+                                    android:textColor="@color/text_tertiary"
+                                    android:textSize="10sp"
+                                    android:textAllCaps="true"
+                                    android:letterSpacing="0.08" />
+
+                                <TextView
+                                    android:id="@+id/tvTicketDetailNim"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dp"
+                                    android:textColor="@color/text_primary"
+                                    android:textSize="13sp"
+                                    android:textStyle="bold"
+                                    tools:text="220180001" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="14dp"
+                            android:layout_marginBottom="14dp"
+                            android:background="@color/stroke_border" />
+
+                        <!-- Waktu & Lokasi -->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Waktu &amp; Tempat"
+                            android:textColor="@color/text_tertiary"
+                            android:textSize="10sp"
+                            android:textAllCaps="true"
+                            android:letterSpacing="0.08" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:src="@drawable/ic_time"
+                                app:tint="@color/primary" />
+
+                            <TextView
+                                android:id="@+id/tvTicketDetailTime"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="8dp"
+                                android:textColor="@color/text_primary"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                tools:text="Senin, 18 Nov 2026 • 09:00 WIB" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="14dp"
+                                android:layout_height="14dp"
+                                android:src="@drawable/ic_location"
+                                app:tint="@color/primary" />
+
+                            <TextView
+                                android:id="@+id/tvTicketDetailLocation"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="8dp"
+                                android:textColor="@color/text_secondary"
+                                android:textSize="12sp"
+                                tools:text="Auditorium Utama Rektorat Lt. 3" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="14dp"
+                            android:layout_marginBottom="14dp"
+                            android:background="@color/stroke_border" />
+
+                        <!-- Tanggal Daftar -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Tanggal Pendaftaran"
+                                    android:textColor="@color/text_tertiary"
+                                    android:textSize="10sp"
+                                    android:textAllCaps="true"
+                                    android:letterSpacing="0.08" />
+
+                                <TextView
+                                    android:id="@+id/tvTicketRegisteredDate"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="3dp"
+                                    android:textColor="@color/text_primary"
+                                    android:textSize="13sp"
+                                    android:textStyle="bold"
+                                    tools:text="18 Nov 2026, 10:30" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Tombol Aksi -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnShareSlip"
+                style="@style/Widget.Material3.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text="Bagikan Slip Pendaftaran"
+                android:textStyle="bold"
+                app:cornerRadius="14dp"
+                app:icon="@drawable/ic_share"
+                app:iconGravity="textStart"
+                app:strokeColor="@color/primary" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDone"
+                style="@style/Widget.Material3.Button"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="8dp"
+                android:text="Kembali ke Beranda"
+                android:textStyle="bold"
+                app:backgroundTint="@color/primary"
+                app:cornerRadius="14dp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand / Primary Colors (lebih terang agar kontras di background gelap) -->
+    <color name="primary">#75A7FF</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#9CC2FF</color>
+    <color name="primary_container">#1A3A5C</color>
+    <color name="on_primary_container">#D6E4FF</color>
+
+    <!-- Accent / Secondary Colors -->
+    <color name="secondary">#FFB74D</color>
+    <color name="secondary_container">#3D2E00</color>
+
+    <!-- Background & Surface (gelap) -->
+    <color name="background_light">#0F172A</color>
+    <color name="surface_card">#1E293B</color>
+    <color name="stroke_border">#334155</color>
+
+    <!-- Typography (terang agar terbaca di background gelap) -->
+    <color name="text_primary">#F1F5F9</color>
+    <color name="text_secondary">#94A3B8</color>
+    <color name="text_tertiary">#64748B</color>
+
+    <!-- Functional Badges (dipertahankan agar tetap mudah dikenali) -->
+    <color name="badge_free">#81C784</color>
+    <color name="badge_free_container">#1B3A1E</color>
+    <color name="badge_paid">#F59E0B</color>
+    <color name="badge_closed">#EF4444</color>
+
+    <!-- Error / Danger States (gelap) -->
+    <color name="error_background">#3B1414</color>
+    <color name="error_stroke">#7F1D1D</color>
+    <color name="error_text">#FCA5A5</color>
+    <color name="danger_text">#EF4444</color>
+    <color name="danger_container">#3B1414</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
