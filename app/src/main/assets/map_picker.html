@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Pilih Lokasi</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body { height: 100%; width: 100%; }
+        #map { height: 100%; width: 100%; }
+
+        /* Crosshair tengah peta */
+        #crosshair {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            width: 32px; height: 32px;
+            pointer-events: none;
+            z-index: 1000;
+        }
+        #crosshair::before,
+        #crosshair::after {
+            content: '';
+            position: absolute;
+            background: #0D47A1;
+        }
+        #crosshair::before {
+            width: 2px; height: 100%;
+            left: 50%; transform: translateX(-50%);
+        }
+        #crosshair::after {
+            height: 2px; width: 100%;
+            top: 50%; transform: translateY(-50%);
+        }
+        /* Titik tengah crosshair */
+        #crosshairDot {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            width: 10px; height: 10px;
+            border-radius: 50%;
+            background: #0D47A1;
+            border: 2px solid white;
+            pointer-events: none;
+            z-index: 1001;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="crosshair"></div>
+    <div id="crosshairDot"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        // Pusat default: Universitas Malikussaleh, Lhokseumawe
+        var DEFAULT_LAT = 5.1799;
+        var DEFAULT_LNG = 97.1399;
+        var currentLat  = DEFAULT_LAT;
+        var currentLng  = DEFAULT_LNG;
+        var marker      = null;
+        var isReady     = false;
+
+        var map = L.map('map', {
+            zoomControl: true,
+            attributionControl: false
+        }).setView([DEFAULT_LAT, DEFAULT_LNG], 16);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19
+        }).addTo(map);
+
+        // Icon marker merah
+        var redIcon = L.icon({
+            iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/images/marker-shadow.png',
+            iconSize: [25, 41], iconAnchor: [12, 41],
+            popupAnchor: [1, -34], shadowSize: [41, 41]
+        });
+
+        // Tambah marker default
+        marker = L.marker([DEFAULT_LAT, DEFAULT_LNG], {icon: redIcon, draggable: true}).addTo(map);
+
+        // Update koordinat saat marker di-drag
+        marker.on('dragend', function(e) {
+            currentLat = e.target.getLatLng().lat;
+            currentLng = e.target.getLatLng().lng;
+            reverseGeocode(currentLat, currentLng);
+        });
+
+        // Tap/klik pada peta → pindahkan marker
+        map.on('click', function(e) {
+            currentLat = e.latlng.lat;
+            currentLng = e.latlng.lng;
+            marker.setLatLng([currentLat, currentLng]);
+            reverseGeocode(currentLat, currentLng);
+        });
+
+        // Saat peta selesai bergerak, update koordinat ke tengah peta
+        map.on('moveend', function() {
+            var center = map.getCenter();
+            currentLat = center.lat;
+            currentLng = center.lng;
+        });
+
+        // Reverse geocode via Nominatim (OpenStreetMap)
+        function reverseGeocode(lat, lng) {
+            var url = 'https://nominatim.openstreetmap.org/reverse?format=json&lat=' + lat + '&lon=' + lng + '&addressdetails=1&accept-language=id';
+            fetch(url, { headers: { 'Accept-Language': 'id' } })
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    var name = buildLocationName(data);
+                    // Kirim ke Android
+                    if (window.AndroidBridge) {
+                        AndroidBridge.onLocationPicked(lat, lng, name);
+                    }
+                })
+                .catch(function() {
+                    var fallback = 'Lat: ' + lat.toFixed(5) + ', Lng: ' + lng.toFixed(5);
+                    if (window.AndroidBridge) {
+                        AndroidBridge.onLocationPicked(lat, lng, fallback);
+                    }
+                });
+        }
+
+        function buildLocationName(data) {
+            if (!data || !data.address) return data.display_name || 'Lokasi tidak diketahui';
+            var a = data.address;
+            var parts = [];
+            // Prioritas: amenity / building / road / neighbourhood / city
+            if (a.amenity)      parts.push(a.amenity);
+            if (a.building)     parts.push(a.building);
+            if (a.road)         parts.push(a.road);
+            if (a.neighbourhood || a.suburb) parts.push(a.neighbourhood || a.suburb);
+            if (a.city || a.town || a.village) parts.push(a.city || a.town || a.village);
+            return parts.length > 0 ? parts.join(', ') : (data.display_name || 'Lokasi dipilih');
+        }
+
+        // Dipanggil dari Android: set lokasi ke koordinat tertentu
+        function setLocation(lat, lng) {
+            currentLat = lat; currentLng = lng;
+            map.setView([lat, lng], 17);
+            marker.setLatLng([lat, lng]);
+            reverseGeocode(lat, lng);
+        }
+
+        // Dipanggil dari Android: lakukan search berdasarkan query
+        function searchLocation(query) {
+            var url = 'https://nominatim.openstreetmap.org/search?format=json&q='
+                + encodeURIComponent(query) + '&limit=1&accept-language=id';
+            fetch(url)
+                .then(function(r) { return r.json(); })
+                .then(function(results) {
+                    if (results && results.length > 0) {
+                        var r = results[0];
+                        setLocation(parseFloat(r.lat), parseFloat(r.lon));
+                    } else {
+                        if (window.AndroidBridge) AndroidBridge.onSearchNotFound();
+                    }
+                })
+                .catch(function() {
+                    if (window.AndroidBridge) AndroidBridge.onSearchNotFound();
+                });
+        }
+
+        // Konfirmasi lokasi saat ini
+        function confirmCurrentLocation() {
+            reverseGeocode(currentLat, currentLng);
+        }
+
+        isReady = true;
+        if (window.AndroidBridge) AndroidBridge.onMapReady();
+    </script>
+</body>
+</html>
