@@ -1,66 +1,88 @@
 # EventKampus 🎓
 
 <p align="center">
-  <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" width="100" alt="EventKampus Logo"/>
+  <img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" width="110" alt="EventKampus Logo"/>
 </p>
 
 <p align="center">
-  Aplikasi Android untuk Informasi & Pendaftaran Kegiatan Kampus<br/>
-  <strong>Universitas Malikussaleh (UNIMAL)</strong>
+  <b>Aplikasi Android Informasi & Pendaftaran Kegiatan Kampus</b><br/>
+  Universitas Malikussaleh (UNIMAL)
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Platform-Android-green?logo=android" />
-  <img src="https://img.shields.io/badge/Language-Kotlin-blue?logo=kotlin" />
-  <img src="https://img.shields.io/badge/Min%20SDK-API%2024-orange" />
-  <img src="https://img.shields.io/badge/Target%20SDK-API%2037-orange" />
-  <img src="https://img.shields.io/badge/Version-1.0-purple" />
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Min%20SDK-API%2024%20(Android%207.0)-orange" />
+  <img src="https://img.shields.io/badge/Target%20SDK-API%2037-blue" />
+  <img src="https://img.shields.io/badge/Version-1.0-success" />
+  <img src="https://img.shields.io/badge/UI-Material%20Design%203-6750A4?logo=materialdesign&logoColor=white" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/Rudi83/Event-Campus/releases/download/v1.0/EventKampus-v1.0.apk">
+    <img src="https://img.shields.io/badge/⬇️%20Download%20APK-EventKampus%20v1.0-0D47A1?style=for-the-badge" />
+  </a>
 </p>
 
 ---
 
 ## 📖 Tentang Aplikasi
 
-**EventKampus** adalah aplikasi mobile berbasis Android yang memudahkan mahasiswa UNIMAL dalam menemukan, mendaftar, dan mengikuti berbagai kegiatan kampus seperti seminar, workshop, lomba, dan kepanitiaan.
+**EventKampus** adalah aplikasi mobile Android yang memudahkan mahasiswa UNIMAL menemukan, mendaftar, dan mengikuti berbagai kegiatan kampus — seminar, workshop, lomba, dan kepanitiaan — langsung dari smartphone.
 
-Aplikasi ini dibangun sebagai proyek akhir mata kuliah **Pemrograman Mobile** — Program Studi Teknik Informatika, Universitas Malikussaleh.
+> Proyek Akhir Mata Kuliah **Pemrograman Mobile**  
+> Teknik Informatika — Universitas Malikussaleh (UNIMAL)  
+> Semester 5 — 2026
 
 ---
 
-## ✨ Fitur Lengkap
+## 📱 Screenshot
+
+| Beranda | Eksplorasi | Detail Event |
+|:---:|:---:|:---:|
+| ![Home](https://via.placeholder.com/160x320/0D47A1/FFFFFF?text=Beranda) | ![Explore](https://via.placeholder.com/160x320/1565C0/FFFFFF?text=Eksplorasi) | ![Detail](https://via.placeholder.com/160x320/0A2463/FFFFFF?text=Detail) |
+
+| Tiket & QR | Profil Admin | Profil User |
+|:---:|:---:|:---:|
+| ![Ticket](https://via.placeholder.com/160x320/FF8F00/FFFFFF?text=E-Tiket) | ![Admin](https://via.placeholder.com/160x320/0D47A1/FFFFFF?text=Admin) | ![User](https://via.placeholder.com/160x320/1565C0/FFFFFF?text=User) |
+
+---
+
+## ✨ Fitur Aplikasi
 
 ### 👤 Mahasiswa (User)
-| Fitur | Keterangan |
-|---|---|
-| 🔐 Autentikasi | Login & Register akun mahasiswa |
-| 🏠 Beranda | Daftar kegiatan terbaru & banner hero |
-| 🔍 Eksplorasi | Filter kategori, format, harga, dan kuota |
-| 📋 Detail Kegiatan | Info lengkap: pemateri, lokasi, fasilitas, syarat |
-| 📝 Pendaftaran | Form registrasi dengan validasi lengkap |
-| 🎟️ Slip Pendaftaran | Slip digital dengan nomor registrasi unik |
-| 📤 Bagikan Slip | Share slip via WhatsApp, email, dll |
-| 🗺️ Peta Lokasi | Navigasi ke lokasi kegiatan via Maps |
-| 🔔 Pengingat | Notifikasi pengingat jadwal kegiatan |
-| 🏆 E-Sertifikat | Koleksi sertifikat dengan link Google Drive |
-| 📊 Poin SKP | Kalkulasi otomatis SKP per kategori kegiatan |
-| ✅ Absensi Kehadiran | Absensi via deep link pada 10 menit terakhir event |
-| 👤 Profil | Statistik event, SKP, dan sertifikat |
-| 🌐 Portal UNIMAL | WebView portal website kampus |
+| # | Fitur | Keterangan |
+|---|---|---|
+| 1 | 🔐 **Autentikasi** | Register & login akun mahasiswa dengan validasi lengkap |
+| 2 | 🏠 **Beranda** | Daftar kegiatan terbaru, filter kategori, hero banner |
+| 3 | 🔍 **Eksplorasi** | Pencarian teks + filter kategori, format, harga, kuota & sorting |
+| 4 | 📋 **Detail Kegiatan** | Info lengkap: pemateri, lokasi, fasilitas, syarat & ketentuan |
+| 5 | 📝 **Pendaftaran** | Form registrasi dengan validasi nama, NIM, HP format Indonesia |
+| 6 | 🎟️ **E-Tiket + QR Code** | Tiket digital dengan QR Code presensi unik |
+| 7 | 🗺️ **Peta Lokasi** | Navigasi ke lokasi kegiatan via Google Maps |
+| 8 | 🔔 **Notifikasi** | Konfirmasi pendaftaran & pengingat jadwal kegiatan |
+| 9 | 🌐 **Portal UNIMAL** | Akses website kampus langsung dalam aplikasi (WebView) |
+| 10 | 👤 **Profil** | Statistik event diikuti, poin SKP, dan e-sertifikat |
+| 11 | 🌙 **Dark Mode** | Mendukung mode gelap sistem Android |
 
-### 🛡️ Admin
-| Fitur | Keterangan |
-|---|---|
-| ➕ Tambah Kegiatan | Form lengkap dengan date picker & peta lokasi |
-| ✏️ Edit & Hapus | CRUD kegiatan secara penuh |
-| 👥 Kelola Peserta | Lihat peserta per event, dikelompokkan per kegiatan |
-| ✅ Setujui / Tolak | Approve atau reject pendaftaran peserta |
-| 📱 Ekspor Nomor WA | Unduh nomor WhatsApp seluruh peserta per event |
-| 🔗 Link Sertifikat | Input link Google Drive sertifikat per event (1x untuk semua peserta) |
-| ⏰ Jadwal Otomatis | Set waktu mulai & selesai event via date-time picker |
-| 📡 Notifikasi Sesi | Alarm otomatis saat event dimulai & 10 menit sebelum berakhir |
-| 📤 Bagikan Absensi | Share link absensi ke WhatsApp seluruh peserta |
-| 📍 Peta Interaktif | Pilih lokasi presisi via OpenStreetMap + reverse geocoding |
-| 📊 Statistik | Peserta aktif, total akun, dan total event di profil admin |
+### 🛡️ Admin (Nasyiruddin)
+| # | Fitur | Keterangan |
+|---|---|---|
+| 1 | ➕ **Tambah Kegiatan** | Form lengkap: judul, kategori, pemateri, kuota, harga, deskripsi |
+| 2 | ✏️ **Edit Kegiatan** | Ubah semua data kegiatan yang sudah dibuat |
+| 3 | 🗑️ **Hapus Kegiatan** | Hapus kegiatan dari database dengan konfirmasi |
+| 4 | 👁️ **Badge Admin** | Identitas admin terlihat jelas di halaman profil |
+
+---
+
+## 🔑 Akun Demo
+
+> Ketuk baris akun di halaman login untuk mengisi otomatis
+
+| Role | Email | Password |
+|---|---|---|
+| 🛡️ **Admin** | nasyir@mhs.unimal.ac.id | password123 |
+| 👤 **User** | sarah@mhs.unimal.ac.id | password123 |
 
 ---
 
@@ -69,143 +91,97 @@ Aplikasi ini dibangun sebagai proyek akhir mata kuliah **Pemrograman Mobile** �
 ```
 EventKampus/
 ├── data/
-│   ├── model/          → Event, Ticket, User, Category
-│   ├── db/             → SQLite (EventDatabaseHelper)
-│   ├── repository/     → EventRepository, AuthRepository
-│   └── session/        → SessionManager (SharedPreferences)
+│   ├── model/        → Event, Ticket, User, Category
+│   ├── db/           → SQLite (EventDatabaseHelper)
+│   ├── repository/   → EventRepository, AuthRepository
+│   └── session/      → SessionManager (SharedPreferences)
 ├── ui/
-│   ├── auth/           → Login, Register
-│   ├── home/           → HomeFragment
-│   ├── explore/        → ExploreFragment
-│   ├── detail/         → DetailEventActivity
-│   ├── register/       → RegisterEventActivity
-│   ├── ticket/         → TicketDetailActivity
-│   ├── tickets/        → MyTicketsFragment
-│   ├── admin/          → ManageParticipants, EventSession, AdminParticipants
-│   ├── manage/         → AddEditEventActivity
-│   ├── certificate/    → MyCertificatesActivity
-│   ├── attendance/     → AttendanceActivity (deep link)
-│   ├── map/            → LocationPickerActivity (OSM)
-│   ├── profile/        → ProfileFragment
-│   └── web/            → CampusWebActivity
-├── receiver/           → EventAlarmReceiver
-├── util/               → EventScheduler, SkpHelper, CertificateLinkStore
-└── assets/             → map_picker.html (Leaflet.js)
+│   ├── auth/         → LoginActivity, RegisterActivity
+│   ├── home/         → HomeFragment
+│   ├── explore/      → ExploreFragment
+│   ├── detail/       → DetailEventActivity
+│   ├── register/     → RegisterEventActivity
+│   ├── ticket/       → TicketDetailActivity
+│   ├── tickets/      → MyTicketsFragment
+│   ├── manage/       → AddEditEventActivity
+│   ├── profile/      → ProfileFragment
+│   └── web/          → CampusWebActivity
+└── util/             → NotificationHelper, QrCodeGenerator
 ```
 
-**Stack Teknologi:**
-- **Bahasa:** Kotlin
-- **UI:** Material Design 3 + ViewBinding
-- **Database:** SQLite (tanpa Room)
-- **Storage:** SharedPreferences
-- **Peta:** OpenStreetMap + Leaflet.js (via WebView)
-- **Geocoding:** Nominatim API
-- **Alarm:** AlarmManager + BroadcastReceiver
-- **Deep Link:** `eventkampus://attendance?event=...`
-- **Min SDK:** API 24 (Android 7.0)
-- **Target SDK:** API 37
-
----
-
-## 🔑 Akun Demo
-
-| Role | Email / NIM | Password |
-|---|---|---|
-| **Admin** | nasyir@mhs.unimal.ac.id | password123 |
-| **Mahasiswa** | sarah@mhs.unimal.ac.id | password123 |
-
----
-
-## 📊 Sistem SKP
-
-SKP (Satuan Kredit Partisipasi) adalah poin kemahasiswaan wajib di UNIMAL sebagai syarat kelulusan (minimum **100 SKP**).
-
-| Kategori Kegiatan | Poin SKP |
+| Komponen | Teknologi |
 |---|---|
-| Seminar | 3 SKP |
-| Workshop | 4 SKP |
-| Lomba | 5 SKP |
-| Kepanitiaan | 6 SKP |
+| Bahasa | Kotlin |
+| UI Framework | Material Design 3 + ViewBinding |
+| Database | SQLite (tanpa Room/ORM) |
+| Session | SharedPreferences |
+| Notifikasi | NotificationCompat (lokal) |
+| Peta | Google Maps Intent |
+| Web | Android WebView |
+| Min SDK | API 24 — Android 7.0 Nougat |
+| Target SDK | API 37 |
 
 ---
 
-## 🔄 Alur Penggunaan
+## 📦 Download & Instalasi
 
-```
-Mahasiswa                          Admin
-    │                                │
-    ├─ Register / Login              ├─ Login (role admin)
-    ├─ Lihat daftar event            ├─ Tambah event + pilih lokasi di peta
-    ├─ Daftar kegiatan               ├─ Set jadwal (waktu mulai & selesai)
-    ├─ Terima slip pendaftaran       ├─ Kelola & setujui/tolak peserta
-    ├─ Terima link absensi (WA)      ├─ Share link absensi ke peserta
-    ├─ Klik link → absensi hadir     ├─ Input link sertifikat Google Drive
-    └─ Unduh e-sertifikat            └─ Monitor kehadiran real-time
-```
+### Download APK langsung
+👉 **[EventKampus-v1.0.apk](https://github.com/Rudi83/Event-Campus/releases/download/v1.0/EventKampus-v1.0.apk)**
 
----
+### Langkah instalasi
+1. Download file APK di atas ke perangkat Android
+2. Buka file APK
+3. Jika muncul **"Install unknown apps"** → izinkan dari browser/file manager
+4. Ikuti proses instalasi
+5. Buka aplikasi → login dengan akun demo
 
-## 📦 Instalasi APK
-
-1. Download `EventKampus-v1.0.apk` dari repository ini
-2. Buka file APK di perangkat Android
-3. Jika muncul peringatan *"Install unknown apps"*, izinkan instalasi
-4. Buka aplikasi dan login menggunakan akun demo
+> **Requirement:** Android 7.0 (Nougat) atau lebih baru
 
 ---
 
 ## 🚀 Build dari Source
 
 ```bash
-# Clone repository
+# 1. Clone repository
 git clone https://github.com/Rudi83/Event-Campus.git
 
-# Buka di Android Studio
-# File → Open → pilih folder Event-Campus
+# 2. Buka di Android Studio
+#    File → Open → pilih folder Event-Campus
 
-# Build & Run
-# Klik Run ▶ atau Shift+F10
+# 3. Tunggu Gradle sync selesai
+
+# 4. Run (Shift+F10 atau klik ▶)
 ```
 
 **Requirement:**
-- Android Studio Ladybug atau lebih baru
+- Android Studio Ladybug 2024.2+
 - JDK 11+
 - Android SDK API 24–37
 
 ---
 
-## 📝 Riwayat Commit
+## 📋 Riwayat Versi
 
-| Commit | Fitur |
-|---|---|
-| `chore: initial project setup` | Setup awal project |
-| `feat: add data models` | Model Event, Ticket, User |
-| `feat: add SQLite database` | Database & Repository |
-| `feat: add login and register` | Autentikasi |
-| `feat: add main activity` | Bottom navigation |
-| `feat: add home and explore` | Beranda & Eksplorasi |
-| `feat: add event detail` | Detail event & pendaftaran |
-| `feat: add ticket system` | Slip pendaftaran |
-| `feat: add admin panel` | Kelola peserta & approve/reject |
-| `feat: add e-certificate` | Sertifikat & SKP |
-| `feat: add attendance system` | Absensi & alarm |
-| `feat: add location picker` | Peta interaktif OSM |
-| `feat: add profile screen` | Profil & portal web |
-| `chore: finalize project` | Finalisasi v1.0 |
+| Versi | Tanggal | Perubahan |
+|---|---|---|
+| **v1.0** | November 2026 | Rilis pertama — fitur lengkap CRUD, tiket, notifikasi, Maps, WebView, role admin/user |
 
 ---
 
 ## 👨‍💻 Developer
 
-**Nasyiruddin**  
-NIM: 240170050  
-Program Studi: Teknik Informatika  
-Universitas Malikussaleh (UNIMAL)  
-
-Mata Kuliah: Pemrograman Mobile — Semester 5
+<p>
+  <b>Nasyiruddin</b><br/>
+  NIM: 240170050<br/>
+  Program Studi: Teknik Informatika<br/>
+  Universitas Malikussaleh (UNIMAL)<br/>
+  <br/>
+  📧 nasyir@mhs.unimal.ac.id<br/>
+  Mata Kuliah: Pemrograman Mobile — Semester 5, 2026
+</p>
 
 ---
 
 <p align="center">
-  Dibuat dengan ❤️ untuk UNIMAL
+  Dibuat dengan ❤️ untuk UNIMAL &nbsp;•&nbsp; EventKampus v1.0 &nbsp;•&nbsp; 2026
 </p>
