@@ -46,20 +46,50 @@ class RegisterActivity : AppCompatActivity() {
 
     private fun setupProdiDropdown() {
         val prodiList = listOf(
-            "Teknik Informatika",
-            "Sistem Informasi",
+            // Teknik
             "Teknik Sipil",
             "Teknik Mesin",
-            "Teknik Elektro",
+            "Teknik Industri",
             "Teknik Kimia",
-            "Arsitektur",
+            "Teknik Elektro",
+            "Teknik Arsitektur",
+            "Teknik Informatika",
+            "Sistem Informasi",
+            "Teknik Material",
+            "Teknik Logistik",
+            // Ekonomi & Bisnis
+            "Manajemen (S1)",
+            "Akuntansi (S1)",
+            "Ekonomi Pembangunan (S1)",
+            "Ekonomi Syariah (S1)",
+            "Kewirausahaan (S1)",
+            "Kesekretariatan (D3)",
+            // Ilmu Sosial & Politik
+            "Administrasi Publik",
+            "Administrasi Bisnis",
+            "Ilmu Politik",
             "Ilmu Komunikasi",
-            "Manajemen",
-            "Akuntansi",
-            "Ekonomi Pembangunan",
+            "Sosiologi",
+            "Antropologi",
+            // Pertanian & Kelautan
+            "Agroekoteknologi",
+            "Agribisnis",
+            "Akuakultur",
+            "Ilmu Kelautan",
+            // Hukum
             "Ilmu Hukum",
-            "Kedokteran",
-            "Administrasi Publik"
+            // Kesehatan
+            "Kedokteran (S1)",
+            "Psikologi (S1)",
+            "Pendidikan Profesi Dokter",
+            "Keperawatan (D3)",
+            // Pendidikan
+            "Pendidikan Matematika (S1)",
+            "Pendidikan Fisika (S1)",
+            "Pendidikan Kimia (S1)",
+            "Pendidikan Bahasa Indonesia (S1)",
+            "Pendidikan Vokasional Teknik Mesin (S1)",
+            "Pendidikan Profesi Guru"
         )
         val adapter = ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, prodiList)
         binding.actvRegProdi.setAdapter(adapter)
