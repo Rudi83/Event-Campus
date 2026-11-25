@@ -3,8 +3,8 @@
 # min_api: 24
 # common_typos_disable
 # {"id":"com.android.tools.r8.mapping","version":"2.2"}
-# pg_map_id: ae817c38480db20089d39f854a6381b64f264c862ed941af749d0014a8ae9bdf
-# pg_map_hash: SHA-256 ae817c38480db20089d39f854a6381b64f264c862ed941af749d0014a8ae9bdf
+# pg_map_id: 731f33b8f5a25449bb1c57b40669aaf186c5b975c266d4d66ed3d775bc1cd033
+# pg_map_hash: SHA-256 731f33b8f5a25449bb1c57b40669aaf186c5b975c266d4d66ed3d775bc1cd033
 _COROUTINE.ArtificialStackFrames -> R8$$REMOVED$$CLASS$$0:
 # {"id":"sourceFile","fileName":"CoroutineDebugging.kt"}
 _COROUTINE.ArtificialStackFramesUnsafe -> g1:
@@ -136356,46 +136356,46 @@ com.example.eventkampus.ui.auth.RegisterActivity -> com.example.eventkampus.ui.a
     50:57:void onCreate(android.os.Bundle):36:36 -> onCreate
     58:72:void setupToolbar():44:44 -> onCreate
     58:72:void onCreate(android.os.Bundle):38 -> onCreate
-    73:74:void setupProdiDropdown():61:61 -> onCreate
+    73:74:void setupProdiDropdown():91:91 -> onCreate
     73:74:void onCreate(android.os.Bundle):39 -> onCreate
-    75:104:void setupProdiDropdown():62:62 -> onCreate
-    75:104:void onCreate(android.os.Bundle):39 -> onCreate
-    105:108:void setupProdiDropdown():48:48 -> onCreate
-    105:108:void onCreate(android.os.Bundle):39 -> onCreate
-    109:116:void setupProdiDropdown():64:64 -> onCreate
-    109:116:void onCreate(android.os.Bundle):39 -> onCreate
-    117:125:void setupProdiDropdown():65:65 -> onCreate
-    117:125:void onCreate(android.os.Bundle):39 -> onCreate
-    126:140:void setupListeners():69:69 -> onCreate
-    126:140:void onCreate(android.os.Bundle):40 -> onCreate
-    141:160:void setupListeners():72:72 -> onCreate
-    141:160:void onCreate(android.os.Bundle):40 -> onCreate
-    161:164:void setupListeners():69:69 -> onCreate
-    161:164:void onCreate(android.os.Bundle):40 -> onCreate
-    165:168:void setupProdiDropdown():65:65 -> onCreate
-    165:168:void onCreate(android.os.Bundle):39 -> onCreate
-    169:172:void setupToolbar():44:44 -> onCreate
-    169:172:void onCreate(android.os.Bundle):38 -> onCreate
-    173:176:void onCreate(android.os.Bundle):30:30 -> onCreate
-    1:2:void setRegisterLoading(boolean):219:219 -> r
-    3:16:void setRegisterLoading(boolean):220:220 -> r
-    17:32:void setRegisterLoading(boolean):221:221 -> r
-    33:41:void setRegisterLoading(boolean):222:222 -> r
-    42:50:void setRegisterLoading(boolean):223:223 -> r
-    51:59:void setRegisterLoading(boolean):224:224 -> r
-    60:68:void setRegisterLoading(boolean):225:225 -> r
-    69:77:void setRegisterLoading(boolean):226:226 -> r
-    78:91:void setRegisterLoading(boolean):227:227 -> r
-    92:95:void setRegisterLoading(boolean):226:226 -> r
-    96:99:void setRegisterLoading(boolean):225:225 -> r
-    100:103:void setRegisterLoading(boolean):224:224 -> r
-    104:107:void setRegisterLoading(boolean):223:223 -> r
-    108:111:void setRegisterLoading(boolean):222:222 -> r
-    112:115:void setRegisterLoading(boolean):221:221 -> r
-    116:119:void setRegisterLoading(boolean):220:220 -> r
-    1:13:void showError(java.lang.String):231:231 -> s
-    14:27:void showError(java.lang.String):232:232 -> s
-    28:31:void showError(java.lang.String):231:231 -> s
+    75:150:void setupProdiDropdown():92:92 -> onCreate
+    75:150:void onCreate(android.os.Bundle):39 -> onCreate
+    151:154:void setupProdiDropdown():48:48 -> onCreate
+    151:154:void onCreate(android.os.Bundle):39 -> onCreate
+    155:162:void setupProdiDropdown():94:94 -> onCreate
+    155:162:void onCreate(android.os.Bundle):39 -> onCreate
+    163:171:void setupProdiDropdown():95:95 -> onCreate
+    163:171:void onCreate(android.os.Bundle):39 -> onCreate
+    172:186:void setupListeners():99:99 -> onCreate
+    172:186:void onCreate(android.os.Bundle):40 -> onCreate
+    187:206:void setupListeners():102:102 -> onCreate
+    187:206:void onCreate(android.os.Bundle):40 -> onCreate
+    207:210:void setupListeners():99:99 -> onCreate
+    207:210:void onCreate(android.os.Bundle):40 -> onCreate
+    211:214:void setupProdiDropdown():95:95 -> onCreate
+    211:214:void onCreate(android.os.Bundle):39 -> onCreate
+    215:218:void setupToolbar():44:44 -> onCreate
+    215:218:void onCreate(android.os.Bundle):38 -> onCreate
+    219:222:void onCreate(android.os.Bundle):30:30 -> onCreate
+    1:2:void setRegisterLoading(boolean):249:249 -> r
+    3:16:void setRegisterLoading(boolean):250:250 -> r
+    17:32:void setRegisterLoading(boolean):251:251 -> r
+    33:41:void setRegisterLoading(boolean):252:252 -> r
+    42:50:void setRegisterLoading(boolean):253:253 -> r
+    51:59:void setRegisterLoading(boolean):254:254 -> r
+    60:68:void setRegisterLoading(boolean):255:255 -> r
+    69:77:void setRegisterLoading(boolean):256:256 -> r
+    78:91:void setRegisterLoading(boolean):257:257 -> r
+    92:95:void setRegisterLoading(boolean):256:256 -> r
+    96:99:void setRegisterLoading(boolean):255:255 -> r
+    100:103:void setRegisterLoading(boolean):254:254 -> r
+    104:107:void setRegisterLoading(boolean):253:253 -> r
+    108:111:void setRegisterLoading(boolean):252:252 -> r
+    112:115:void setRegisterLoading(boolean):251:251 -> r
+    116:119:void setRegisterLoading(boolean):250:250 -> r
+    1:13:void showError(java.lang.String):261:261 -> s
+    14:27:void showError(java.lang.String):262:262 -> s
+    28:31:void showError(java.lang.String):261:261 -> s
 com.example.eventkampus.ui.auth.RegisterActivity$$ExternalSyntheticLambda1 -> dh:
 # {"id":"sourceFile","fileName":"R8$$SyntheticClass"}
 # {"id":"com.android.tools.r8.synthesized"}
@@ -136405,405 +136405,405 @@ com.example.eventkampus.ui.auth.RegisterActivity$$ExternalSyntheticLambda1 -> dh
       # {"id":"com.android.tools.r8.synthesized"}
     1:8:void RegisterActivity$$ExternalSyntheticLambda1.<init>(com.example.eventkampus.ui.auth.RegisterActivity,byte):0:0 -> <init>
       # {"id":"com.android.tools.r8.synthesized"}
-    12:15:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$3(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):72:72 -> onClick
+    12:15:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$3(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):102:102 -> onClick
     12:15:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
       # {"id":"com.android.tools.r8.synthesized"}
-    16:19:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70:70 -> onClick
+    16:19:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100:100 -> onClick
     16:19:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    20:33:void com.example.eventkampus.ui.auth.RegisterActivity.hideError():236:236 -> onClick
-    20:33:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():76 -> onClick
-    20:33:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    20:33:void com.example.eventkampus.ui.auth.RegisterActivity.hideError():266:266 -> onClick
+    20:33:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():106 -> onClick
+    20:33:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     20:33:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    34:42:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():240:240 -> onClick
-    34:42:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():77 -> onClick
-    34:42:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    34:42:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():270:270 -> onClick
+    34:42:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107 -> onClick
+    34:42:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     34:42:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    43:51:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():241:241 -> onClick
-    43:51:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():77 -> onClick
-    43:51:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    43:51:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():271:271 -> onClick
+    43:51:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107 -> onClick
+    43:51:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     43:51:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    52:60:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():242:242 -> onClick
-    52:60:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():77 -> onClick
-    52:60:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    52:60:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():272:272 -> onClick
+    52:60:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107 -> onClick
+    52:60:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     52:60:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    61:69:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():243:243 -> onClick
-    61:69:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():77 -> onClick
-    61:69:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    61:69:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():273:273 -> onClick
+    61:69:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107 -> onClick
+    61:69:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     61:69:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    70:78:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():244:244 -> onClick
-    70:78:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():77 -> onClick
-    70:78:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    70:78:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():274:274 -> onClick
+    70:78:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107 -> onClick
+    70:78:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     70:78:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    79:87:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():245:245 -> onClick
-    79:87:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():77 -> onClick
-    79:87:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    79:87:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():275:275 -> onClick
+    79:87:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107 -> onClick
+    79:87:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     79:87:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    88:96:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():246:246 -> onClick
-    88:96:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():77 -> onClick
-    88:96:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    88:96:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():276:276 -> onClick
+    88:96:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107 -> onClick
+    88:96:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     88:96:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    97:131:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():79:79 -> onClick
-    97:131:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    97:131:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():109:109 -> onClick
+    97:131:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     97:131:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    132:164:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():80:80 -> onClick
-    132:164:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    132:164:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():110:110 -> onClick
+    132:164:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     132:164:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    165:197:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():81:81 -> onClick
-    165:197:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    165:197:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():111:111 -> onClick
+    165:197:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     165:197:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    198:230:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():82:82 -> onClick
-    198:230:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    198:230:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():112:112 -> onClick
+    198:230:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     198:230:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    231:261:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():83:83 -> onClick
-    231:261:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    231:261:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():113:113 -> onClick
+    231:261:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     231:261:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    262:282:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():84:84 -> onClick
-    262:282:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    262:282:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():114:114 -> onClick
+    262:282:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     262:282:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    283:303:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():85:85 -> onClick
-    283:303:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    283:303:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():115:115 -> onClick
+    283:303:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     283:303:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    304:311:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():91:91 -> onClick
-    304:311:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    304:311:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():121:121 -> onClick
+    304:311:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     304:311:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    312:322:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():92:92 -> onClick
-    312:322:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    312:322:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():122:122 -> onClick
+    312:322:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     312:322:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    323:334:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():94:94 -> onClick
-    323:334:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    323:334:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():124:124 -> onClick
+    323:334:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     323:334:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    335:338:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():92:92 -> onClick
-    335:338:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    335:338:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():122:122 -> onClick
+    335:338:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     335:338:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    339:345:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():95:95 -> onClick
-    339:345:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    339:345:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():125:125 -> onClick
+    339:345:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     339:345:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    346:356:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():96:96 -> onClick
-    346:356:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    346:356:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():126:126 -> onClick
+    346:356:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     346:356:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    357:367:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():98:98 -> onClick
-    357:367:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    357:367:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():128:128 -> onClick
+    357:367:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     357:367:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    368:371:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():96:96 -> onClick
-    368:371:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    368:371:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():126:126 -> onClick
+    368:371:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     368:371:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    372:373:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():99:99 -> onClick
-    372:373:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    372:373:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():129:129 -> onClick
+    372:373:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     372:373:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
     374:380:void kotlin.text.Regex.<init>(java.lang.String):90:90 -> onClick
-    374:380:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():99 -> onClick
-    374:380:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    374:380:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():129 -> onClick
+    374:380:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     374:380:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
     381:390:boolean kotlin.text.Regex.matches(java.lang.CharSequence):108:108 -> onClick
-    381:390:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():99 -> onClick
-    381:390:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    381:390:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():129 -> onClick
+    381:390:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     381:390:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    391:401:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():100:100 -> onClick
-    391:401:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    391:401:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():130:130 -> onClick
+    391:401:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     391:401:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    402:412:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():102:102 -> onClick
-    402:412:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    402:412:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():132:132 -> onClick
+    402:412:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     402:412:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    413:418:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():100:100 -> onClick
-    413:418:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    413:418:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():130:130 -> onClick
+    413:418:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     413:418:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    419:424:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():106:106 -> onClick
-    419:424:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    419:424:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():136:136 -> onClick
+    419:424:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     419:424:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    425:437:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107:107 -> onClick
-    425:437:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    425:437:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():137:137 -> onClick
+    425:437:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     425:437:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    438:451:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():109:109 -> onClick
-    438:451:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    438:451:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():139:139 -> onClick
+    438:451:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     438:451:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    452:455:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107:107 -> onClick
-    452:455:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    452:455:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():137:137 -> onClick
+    452:455:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     452:455:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    456:457:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():110:110 -> onClick
-    456:457:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    456:457:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():140:140 -> onClick
+    456:457:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     456:457:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
     458:464:void kotlin.text.Regex.<init>(java.lang.String):90:90 -> onClick
-    458:464:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():110 -> onClick
-    458:464:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    458:464:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():140 -> onClick
+    458:464:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     458:464:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
     465:474:boolean kotlin.text.Regex.matches(java.lang.CharSequence):108:108 -> onClick
-    465:474:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():110 -> onClick
-    465:474:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    465:474:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():140 -> onClick
+    465:474:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     465:474:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    475:487:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():111:111 -> onClick
-    475:487:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    475:487:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():141:141 -> onClick
+    475:487:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     475:487:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    488:498:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():113:113 -> onClick
-    488:498:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    488:498:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():143:143 -> onClick
+    488:498:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     488:498:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    499:502:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():111:111 -> onClick
-    499:502:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    499:502:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():141:141 -> onClick
+    499:502:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     499:502:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    503:519:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():114:114 -> onClick
-    503:519:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    503:519:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():144:144 -> onClick
+    503:519:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     503:519:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    520:532:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():115:115 -> onClick
-    520:532:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    520:532:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():145:145 -> onClick
+    520:532:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     520:532:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    533:543:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():117:117 -> onClick
-    533:543:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    533:543:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():147:147 -> onClick
+    533:543:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     533:543:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    544:549:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():121:121 -> onClick
-    544:549:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    544:549:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():151:151 -> onClick
+    544:549:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     544:549:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    550:562:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():122:122 -> onClick
-    550:562:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    550:562:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():152:152 -> onClick
+    550:562:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     550:562:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    563:574:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():124:124 -> onClick
-    563:574:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    563:574:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():154:154 -> onClick
+    563:574:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     563:574:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    575:578:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():122:122 -> onClick
-    575:578:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    575:578:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():152:152 -> onClick
+    575:578:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     575:578:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    579:590:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():125:125 -> onClick
-    579:590:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    579:590:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():155:155 -> onClick
+    579:590:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     579:590:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    591:603:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():126:126 -> onClick
-    591:603:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    591:603:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():156:156 -> onClick
+    591:603:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     591:603:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    604:614:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():128:128 -> onClick
-    604:614:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    604:614:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():158:158 -> onClick
+    604:614:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     604:614:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    615:618:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():126:126 -> onClick
-    615:618:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    615:618:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():156:156 -> onClick
+    615:618:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     615:618:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    619:624:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():132:132 -> onClick
-    619:624:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    619:624:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():162:162 -> onClick
+    619:624:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     619:624:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    625:637:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():133:133 -> onClick
-    625:637:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    625:637:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():163:163 -> onClick
+    625:637:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     625:637:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    638:649:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():135:135 -> onClick
-    638:649:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    638:649:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():165:165 -> onClick
+    638:649:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     638:649:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    650:653:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():133:133 -> onClick
-    650:653:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    650:653:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():163:163 -> onClick
+    650:653:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     650:653:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    654:655:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():139:139 -> onClick
-    654:655:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    654:655:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():169:169 -> onClick
+    654:655:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     654:655:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
     656:662:void kotlin.text.Regex.<init>(java.lang.String):90:90 -> onClick
-    656:662:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():139 -> onClick
-    656:662:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    656:662:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():169 -> onClick
+    656:662:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     656:662:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
     663:673:java.lang.String kotlin.text.Regex.replace(java.lang.CharSequence,java.lang.String):182:182 -> onClick
-    663:673:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():139 -> onClick
-    663:673:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    663:673:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():169 -> onClick
+    663:673:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     663:673:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    674:679:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():140:140 -> onClick
-    674:679:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    674:679:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():170:170 -> onClick
+    674:679:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     674:679:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    680:692:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():141:141 -> onClick
-    680:692:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    680:692:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():171:171 -> onClick
+    680:692:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     680:692:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    693:704:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():143:143 -> onClick
-    693:704:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    693:704:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():173:173 -> onClick
+    693:704:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     693:704:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    705:708:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():141:141 -> onClick
-    705:708:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    705:708:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():171:171 -> onClick
+    705:708:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     705:708:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    709:710:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():144:144 -> onClick
-    709:710:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    709:710:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():174:174 -> onClick
+    709:710:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     709:710:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
     711:717:void kotlin.text.Regex.<init>(java.lang.String):90:90 -> onClick
-    711:717:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():144 -> onClick
-    711:717:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    711:717:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():174 -> onClick
+    711:717:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     711:717:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
     718:727:boolean kotlin.text.Regex.matches(java.lang.CharSequence):108:108 -> onClick
-    718:727:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():144 -> onClick
-    718:727:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    718:727:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():174 -> onClick
+    718:727:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     718:727:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    728:740:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():145:145 -> onClick
-    728:740:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    728:740:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():175:175 -> onClick
+    728:740:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     728:740:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    741:751:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():147:147 -> onClick
-    741:751:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    741:751:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():177:177 -> onClick
+    741:751:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     741:751:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    752:755:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():145:145 -> onClick
-    752:755:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    752:755:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():175:175 -> onClick
+    752:755:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     752:755:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    756:761:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():151:151 -> onClick
-    756:761:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    756:761:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():181:181 -> onClick
+    756:761:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     756:761:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    762:774:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():152:152 -> onClick
-    762:774:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    762:774:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():182:182 -> onClick
+    762:774:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     762:774:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    775:786:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():154:154 -> onClick
-    775:786:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    775:786:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():184:184 -> onClick
+    775:786:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     775:786:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    787:790:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():152:152 -> onClick
-    787:790:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    787:790:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():182:182 -> onClick
+    787:790:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     787:790:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    791:797:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():155:155 -> onClick
-    791:797:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    791:797:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():185:185 -> onClick
+    791:797:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     791:797:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    798:810:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():156:156 -> onClick
-    798:810:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    798:810:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():186:186 -> onClick
+    798:810:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     798:810:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    811:821:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():158:158 -> onClick
-    811:821:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    811:821:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():188:188 -> onClick
+    811:821:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     811:821:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    822:825:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():156:156 -> onClick
-    822:825:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    822:825:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():186:186 -> onClick
+    822:825:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     822:825:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    826:833:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():159:159 -> onClick
-    826:833:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    826:833:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():189:189 -> onClick
+    826:833:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     826:833:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    834:846:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():160:160 -> onClick
-    834:846:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    834:846:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():190:190 -> onClick
+    834:846:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     834:846:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    847:857:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():162:162 -> onClick
-    847:857:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    847:857:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():192:192 -> onClick
+    847:857:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     847:857:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    858:861:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():160:160 -> onClick
-    858:861:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    858:861:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():190:190 -> onClick
+    858:861:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     858:861:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    862:867:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():166:166 -> onClick
-    862:867:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    862:867:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():196:196 -> onClick
+    862:867:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     862:867:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    868:880:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():167:167 -> onClick
-    868:880:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    868:880:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():197:197 -> onClick
+    868:880:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     868:880:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    881:892:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():169:169 -> onClick
-    881:892:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    881:892:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():199:199 -> onClick
+    881:892:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     881:892:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    893:896:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():167:167 -> onClick
-    893:896:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    893:896:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():197:197 -> onClick
+    893:896:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     893:896:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
     897:902:boolean kotlin.jvm.internal.Intrinsics.areEqual(java.lang.Object,java.lang.Object):169:169 -> onClick
-    897:902:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():170 -> onClick
-    897:902:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    897:902:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():200 -> onClick
+    897:902:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     897:902:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    903:915:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():171:171 -> onClick
-    903:915:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    903:915:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():201:201 -> onClick
+    903:915:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     903:915:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    916:926:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():173:173 -> onClick
-    916:926:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    916:926:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():203:203 -> onClick
+    916:926:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     916:926:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    927:932:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():171:171 -> onClick
-    927:932:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    927:932:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():201:201 -> onClick
+    927:932:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     927:932:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    933:939:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():177:177 -> onClick
-    933:939:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    933:939:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():207:207 -> onClick
+    933:939:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     933:939:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    940:944:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():178:178 -> onClick
-    940:944:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    940:944:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():208:208 -> onClick
+    940:944:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     940:944:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    945:947:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():182:182 -> onClick
-    945:947:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    945:947:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():212:212 -> onClick
+    945:947:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     945:947:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    948:956:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():184:184 -> onClick
-    948:956:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    948:956:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():214:214 -> onClick
+    948:956:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     948:956:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    957:959:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():194:194 -> onClick
-    957:959:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    957:959:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():224:224 -> onClick
+    957:959:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     957:959:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
     960:963:boolean kotlin.Result.isSuccess-impl(java.lang.Object):32:32 -> onClick
-    960:963:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():196 -> onClick
-    960:963:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    960:963:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():226 -> onClick
+    960:963:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     960:963:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    964:966:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():196:196 -> onClick
-    964:966:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    964:966:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():226:226 -> onClick
+    964:966:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     964:966:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    967:984:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():199:199 -> onClick
-    967:984:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    967:984:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():229:229 -> onClick
+    967:984:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     967:984:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    985:988:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():197:197 -> onClick
-    985:988:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    985:988:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():227:227 -> onClick
+    985:988:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     985:988:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    989:991:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():201:201 -> onClick
-    989:991:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    989:991:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():231:231 -> onClick
+    989:991:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     989:991:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    992:1001:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():203:203 -> onClick
-    992:1001:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    992:1001:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():233:233 -> onClick
+    992:1001:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     992:1001:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1002:1004:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():204:204 -> onClick
-    1002:1004:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1002:1004:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():234:234 -> onClick
+    1002:1004:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1002:1004:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1005:1007:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():202:202 -> onClick
-    1005:1007:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1005:1007:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():232:232 -> onClick
+    1005:1007:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1005:1007:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1008:1010:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():207:207 -> onClick
-    1008:1010:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1008:1010:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():237:237 -> onClick
+    1008:1010:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1008:1010:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1011:1016:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():208:208 -> onClick
-    1011:1016:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1011:1016:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():238:238 -> onClick
+    1011:1016:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1011:1016:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1017:1024:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():209:209 -> onClick
-    1017:1024:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1017:1024:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():239:239 -> onClick
+    1017:1024:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1017:1024:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1025:1027:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():210:210 -> onClick
-    1025:1027:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1025:1027:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():240:240 -> onClick
+    1025:1027:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1025:1027:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1028:1050:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():212:212 -> onClick
-    1028:1050:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1028:1050:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():242:242 -> onClick
+    1028:1050:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1028:1050:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1051:1072:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():213:213 -> onClick
-    1051:1072:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1051:1072:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():243:243 -> onClick
+    1051:1072:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1051:1072:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1073:1078:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():184:184 -> onClick
-    1073:1078:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1073:1078:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():214:214 -> onClick
+    1073:1078:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1073:1078:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1079:1084:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():115:115 -> onClick
-    1079:1084:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1079:1084:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():145:145 -> onClick
+    1079:1084:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1079:1084:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1085:1090:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():85:85 -> onClick
-    1085:1090:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1085:1090:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():115:115 -> onClick
+    1085:1090:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1085:1090:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1091:1096:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():84:84 -> onClick
-    1091:1096:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1091:1096:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():114:114 -> onClick
+    1091:1096:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1091:1096:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1097:1102:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():83:83 -> onClick
-    1097:1102:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1097:1102:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():113:113 -> onClick
+    1097:1102:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1097:1102:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1103:1108:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():82:82 -> onClick
-    1103:1108:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1103:1108:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():112:112 -> onClick
+    1103:1108:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1103:1108:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1109:1114:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():81:81 -> onClick
-    1109:1114:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1109:1114:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():111:111 -> onClick
+    1109:1114:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1109:1114:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1115:1120:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():80:80 -> onClick
-    1115:1120:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1115:1120:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():110:110 -> onClick
+    1115:1120:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1115:1120:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1121:1126:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():79:79 -> onClick
-    1121:1126:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1121:1126:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():109:109 -> onClick
+    1121:1126:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1121:1126:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1127:1132:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():246:246 -> onClick
-    1127:1132:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():77 -> onClick
-    1127:1132:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1127:1132:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():276:276 -> onClick
+    1127:1132:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107 -> onClick
+    1127:1132:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1127:1132:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1133:1138:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():245:245 -> onClick
-    1133:1138:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():77 -> onClick
-    1133:1138:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1133:1138:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():275:275 -> onClick
+    1133:1138:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107 -> onClick
+    1133:1138:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1133:1138:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1139:1144:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():244:244 -> onClick
-    1139:1144:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():77 -> onClick
-    1139:1144:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1139:1144:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():274:274 -> onClick
+    1139:1144:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107 -> onClick
+    1139:1144:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1139:1144:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1145:1150:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():243:243 -> onClick
-    1145:1150:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():77 -> onClick
-    1145:1150:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1145:1150:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():273:273 -> onClick
+    1145:1150:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107 -> onClick
+    1145:1150:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1145:1150:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1151:1156:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():242:242 -> onClick
-    1151:1156:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():77 -> onClick
-    1151:1156:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1151:1156:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():272:272 -> onClick
+    1151:1156:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107 -> onClick
+    1151:1156:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1151:1156:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1157:1162:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():241:241 -> onClick
-    1157:1162:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():77 -> onClick
-    1157:1162:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1157:1162:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():271:271 -> onClick
+    1157:1162:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107 -> onClick
+    1157:1162:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1157:1162:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1163:1168:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():240:240 -> onClick
-    1163:1168:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():77 -> onClick
-    1163:1168:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1163:1168:void com.example.eventkampus.ui.auth.RegisterActivity.clearFieldErrors():270:270 -> onClick
+    1163:1168:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():107 -> onClick
+    1163:1168:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1163:1168:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
-    1169:1173:void com.example.eventkampus.ui.auth.RegisterActivity.hideError():236:236 -> onClick
-    1169:1173:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():76 -> onClick
-    1169:1173:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):70 -> onClick
+    1169:1173:void com.example.eventkampus.ui.auth.RegisterActivity.hideError():266:266 -> onClick
+    1169:1173:void com.example.eventkampus.ui.auth.RegisterActivity.performRegister():106 -> onClick
+    1169:1173:void com.example.eventkampus.ui.auth.RegisterActivity.setupListeners$lambda$2(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):100 -> onClick
     1169:1173:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0 -> onClick
     1174:1175:void RegisterActivity$$ExternalSyntheticLambda1.onClick(android.view.View):0:0 -> onClick
     1176:1180:void com.example.eventkampus.ui.auth.RegisterActivity.setupToolbar$lambda$1(com.example.eventkampus.ui.auth.RegisterActivity,android.view.View):44:44 -> onClick
